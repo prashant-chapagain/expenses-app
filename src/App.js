@@ -1,9 +1,12 @@
-
-import './App.css';
+import "./App.css";
+import ExpenseList from "./components/ExpenseList";
 
 function App() {
   return (
-   'hallo'
+    <div style={{ width: "60%", margin: 'auto' }}>
+      <h3>Your Expenses</h3>
+      <ExpenseList />
+    </div>
   );
 }
 
